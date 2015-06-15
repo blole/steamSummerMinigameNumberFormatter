@@ -1,9 +1,11 @@
 #Steam Summer 2015 Monster Minigame Number Formatter
 
-Truncates numbers down to 3 digits.
+Truncates all damage/cost numbers down to 3 digits.
 
-For example:
+## (Tamper|Grease)monkey script link
+https://raw.githubusercontent.com/blole/steamSummerMinigameNumberFormatter/master/numberFormatter.user.js
 
+##Example
 | Before  | After |
 | -------:| -----:|
 |       1 |     1 |
