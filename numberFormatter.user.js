@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name Monster Minigame number formatter
-// @namespace asd
-// @description converts 10,234M to 10.2G
-// @version 1.2
+// @namespace https://github.com/blole/steamSummerMinigameNumberFormatter
+// @description truncates numbers to 3 digits (e.g. 12,345M to 12.3G)
+// @version 1.2.1
 // @match *://steamcommunity.com/minigame/towerattack*
 // @match *://steamcommunity.com//minigame/towerattack*
 // @grant none
+// @updateURL https://raw.githubusercontent.com/blole/steamSummerMinigameNumberFormatter/master/numberFormatter.user.js
+// @downloadURL https://raw.githubusercontent.com/blole/steamSummerMinigameNumberFormatter/master/numberFormatter.user.js
 // ==/UserScript==
 
 
