@@ -1,6 +1,7 @@
-#Steam Summer 2015 Monster Minigame NumberFormatter#
+#Steam Summer 2015 Monster Minigame Number Formatter
 
-Truncates numbers down to 3 digits
+Truncates numbers down to 3 digits.
+
 For example:
 
 | Before  | After |
