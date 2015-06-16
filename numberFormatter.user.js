@@ -2,7 +2,7 @@
 // @name Monster Minigame number formatter
 // @namespace https://github.com/blole/steamSummerMinigameNumberFormatter
 // @description truncates numbers to 3 digits (e.g. 12,345M to 12.3G)
-// @version 1.2.1
+// @version 1.3.0
 // @match *://steamcommunity.com/minigame/towerattack*
 // @match *://steamcommunity.com//minigame/towerattack*
 // @grant none
@@ -20,7 +20,7 @@ function formatNumber(num)
 {
     var exponent = Math.floor(Math.log10(num));
     var truncated = Math.floor(num / Math.pow(10, exponent-2));
-    var suffixes = ['','k','M','G','T','P','E','Z','Y','X','W','V'];
+    var suffixes = ["", "K", "M", "B", "T", "q", "Q", "s", "S", "O", "N", "d", "U", "D", "!", "@", "#", "$", "%", "^", "&", "*"];
     var decimals = 2-exponent%3;
     return truncated/Math.pow(10,decimals)+suffixes[Math.floor(exponent/3)];
 }
